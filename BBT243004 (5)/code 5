@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num1,num2,division,multiplication;
+    cout<<"enter value of num1=";
+    cin>>num1;
+    cout<<"enter value of num2=";
+    cin>>num2;
+    division=num1/num1;
+    multiplication=num1*num2;
+    cout<<division;
+    cout<<multiplication;
+
+    return 0;
+}
