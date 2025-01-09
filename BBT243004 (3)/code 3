@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int pow1,pow2,product;
+    cout<<"enter value of pow2";
+    cin>>pow1;
+    cout<<"enter value of pow2";
+    cin>>pow2;
+    product=pow1*pow2;
+    cout<<product;
+    if(product<10){
+        cout<<"bad";
+    }
+    else{
+        cout<<"good";
+    }
+
+    return 0;
+}
