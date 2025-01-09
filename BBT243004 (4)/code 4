@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int sum1,sum2,sum;
+    cout<<"enter value of sum1=";
+    cin>>sum1;
+    cout<<"enter value of sum2=";
+    cin>>sum2;
+    sum=sum1+sum2;
+    cout<<sum;
+
+    return 0;
+}
