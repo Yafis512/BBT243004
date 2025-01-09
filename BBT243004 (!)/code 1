@@ -1,0 +1,10 @@
+num1=int(input("put value of num1"))
+num2=int(input("put value of num2"))
+sum=num1+num2
+print("sum")
+if sum>=10:
+    print("good")
+elif sum>=8:
+    print("bad")
+else:
+    print("fail")
